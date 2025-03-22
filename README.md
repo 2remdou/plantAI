@@ -1,5 +1,5 @@
 
-## Télécharger [python](https://www.python.org/downloads/)
+## Télécharger et installer [python](https://www.python.org/downloads/)
 
 ## Cloner le repository
 ```
