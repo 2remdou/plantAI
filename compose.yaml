@@ -1,0 +1,20 @@
+services:
+  app:
+    build: .
+    command: python app.py
+    volumes:
+      - .:/app
+      - ./requirements.txt:/app/requirements.txt
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: plantedb
+      POSTGRES_USER: plant
+      POSTGRES_PASSWORD: plant
+    ports:
+      - "5432:5432"

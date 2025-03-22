@@ -1,0 +1,146 @@
+{
+    "access_token":"B7dBlzjzjp7fRpl",
+    "model_version":"plant_id:4.3.1",
+    "custom_id":null,
+    "input":{
+       "latitude":null,
+       "longitude":null,
+       "images":[
+          "https://plant.id/media/imgs/55eba855be6349718db0d369d73a4f2a.jpg"
+       ],
+       "datetime":"2025-03-22T00:16:45.953366+00:00"
+    },
+    "result":{
+       "is_plant":{
+          "probability":0.69005203,
+          "threshold":0.5,
+          "binary":true
+       },
+       "classification":{
+          "suggestions":[
+             {
+                "id":"d6ee4911ad0e823c",
+                "name":"Phoenix canariensis",
+                "probability":0.8148,
+                "details":{
+                   "common_names":[
+                      "Dattier des Canaries",
+                      "Palmier des Canaries",
+                      "Faux dattier"
+                   ],
+                   "description":{
+                      "value":"Le dattier des Canaries ou palmier des Canaries (Phoenix canariensis), parfois appelé faux dattier, est une espèce de plantes à fleurs appartenant au genre Phoenix et à la famille des Arécacées (les palmiers). L'épithète spécifique canariensis indique sa provenance : les îles Canaries. \nCe palmier est endémique des îles Canaries et il est le symbole naturel végétal de cet archipel. Il a été importée à Nice en 1864 et il est de nos jours très fréquemment planté pour ses qualités ornementales dans l'ensemble du bassin méditerranéen. Sa silhouette, bien reconnaissable parmi les palmiers, est devenue emblématique des paysages méditerranéens, à côté des pins et des cyprès. Il est également cultivé dans de nombreuses régions du monde.",
+                      "citation":"https://fr.wikipedia.org/wiki/Phoenix_canariensis",
+                      "license_name":"CC BY-SA 3.0",
+                      "license_url":"https://creativecommons.org/licenses/by-sa/3.0/"
+                   },
+                   "synonyms":[
+                      "Phoenix canariensis",
+                      "Phoenix canariensis hort. ex Chabaud",
+                      "Phoenix canariensis subsp. porphyrococca",
+                      "Phoenix canariensis var. porphyrococca",
+                      "Phoenix cycadifolia",
+                      "Phoenix dactylifera subsp. jubae",
+                      "Phoenix dactylifera var. jubae",
+                      "Phoenix erecta",
+                      "Phoenix jubae",
+                      "Phoenix macrocarpa",
+                      "Phoenix menieri",
+                      "Phoenix senegalensis",
+                      "Phoenix tenuis",
+                      "Phoenix vigieri"
+                   ],
+                   "edible_parts":[
+                      "fruit",
+                      "flowers"
+                   ],
+                   "watering":{
+                      "max":2,
+                      "min":2
+                   },
+                   "propagation_methods":[
+                      "seeds",
+                      "suckers"
+                   ],
+                   "best_watering":"Watering this plant properly is crucial for its health. It prefers a moderate watering schedule. During the growing season, water it thoroughly but let the soil dry out between waterings. Overwatering can lead to root rot, so it's important to ensure good drainage. In the winter, reduce the frequency of watering as the plant's growth slows down.",
+                   "description_gpt":null,
+                   "description_all":{
+                      "value":"Le dattier des Canaries ou palmier des Canaries (Phoenix canariensis), parfois appelé faux dattier, est une espèce de plantes à fleurs appartenant au genre Phoenix et à la famille des Arécacées (les palmiers). L'épithète spécifique canariensis indique sa provenance : les îles Canaries. \nCe palmier est endémique des îles Canaries et il est le symbole naturel végétal de cet archipel. Il a été importée à Nice en 1864 et il est de nos jours très fréquemment planté pour ses qualités ornementales dans l'ensemble du bassin méditerranéen. Sa silhouette, bien reconnaissable parmi les palmiers, est devenue emblématique des paysages méditerranéens, à côté des pins et des cyprès. Il est également cultivé dans de nombreuses régions du monde.",
+                      "citation":"https://fr.wikipedia.org/wiki/Phoenix_canariensis",
+                      "license_name":"CC BY-SA 3.0",
+                      "license_url":"https://creativecommons.org/licenses/by-sa/3.0/"
+                   },
+                   "language":"fr",
+                   "entity_id":"d6ee4911ad0e823c"
+                }
+             },
+             {
+                "id":"e8f864ef34c2daf2",
+                "name":"Phoenix dactylifera",
+                "probability":0.1732,
+                "details":{
+                   "common_names":[
+                      "Dattier"
+                   ],
+                   "description":{
+                      "value":"Le dattier ou palmier-dattier (Phoenix dactylifera L.) est une espèce de plantes monocotylédones de la famille des Arécacées (Palmiers) et de la sous-famille des Coryphoideae, largement cultivé d'abord pour ses fruits : les dattes. Dans l'agriculture d'oasis saharienne, c'est la plante (qui n'est pas un arbre à proprement parler) qui domine la strate arborée des arbres fruitiers qui poussent à son ombre et qui, eux-mêmes, couvrent cultures maraîchères, fourragères, voire céréalières. À priori, on ne connaît pas cette espèce à l'état spontané (sauvage), mais sub-spontané (échappée de culture).\nCette plante monocotylédone n'est pas un arbre, au sens botanique, car elle ne produit pas de vrai bois. C'est donc abusivement que le terme d'arbre est utilisé pour parler d'un dattier. Toutefois ce palmier constitue souvent une des strates arborées dans son milieu.\nLes connaissances, savoir-faire, traditions et pratiques associés au palmier-dattier sont inscrits sur la liste représentative du patrimoine culturel immatériel de l'humanité en décembre 2019.",
+                      "citation":"https://fr.wikipedia.org/wiki/Phoenix_dactylifera",
+                      "license_name":"CC BY-SA 3.0",
+                      "license_url":"https://creativecommons.org/licenses/by-sa/3.0/"
+                   },
+                   "synonyms":[
+                      "Encephalartos pungens",
+                      "Macrozamia tridentata var. pungens",
+                      "Palma dactylifera",
+                      "Palma major",
+                      "Phoenix atlantica var. maroccana",
+                      "Phoenix chevalieri",
+                      "Phoenix dactylifera var. adunca",
+                      "Phoenix dactylifera var. costata",
+                      "Phoenix dactylifera var. cylindrocarpa",
+                      "Phoenix dactylifera var. gonocarpa",
+                      "Phoenix dactylifera var. oocarpa",
+                      "Phoenix dactylifera var. oxysperma",
+                      "Phoenix dactylifera var. sphaerocarpa",
+                      "Phoenix dactylifera var. sphaerosperma",
+                      "Phoenix dactylifera var. sylvestris",
+                      "Phoenix excelsior",
+                      "Phoenix iberica",
+                      "Zamia pallida",
+                      "Zamia pungens"
+                   ],
+                   "edible_parts":[
+                      "pollen",
+                      "fruit",
+                      "sap",
+                      "flowers"
+                   ],
+                   "watering":{
+                      "max":2,
+                      "min":2
+                   },
+                   "propagation_methods":[
+                      "seeds",
+                      "suckers"
+                   ],
+                   "best_watering":"For optimal growth, it's important to water the plant deeply but infrequently. This means allowing the soil to dry out between waterings to prevent root rot. During the growing season, water the plant every 10 to 14 days, ensuring the water reaches the root zone. In the winter months, reduce watering to once a month. Always check the soil moisture before watering to avoid overwatering.",
+                   "description_gpt":null,
+                   "description_all":{
+                      "value":"Le dattier ou palmier-dattier (Phoenix dactylifera L.) est une espèce de plantes monocotylédones de la famille des Arécacées (Palmiers) et de la sous-famille des Coryphoideae, largement cultivé d'abord pour ses fruits : les dattes. Dans l'agriculture d'oasis saharienne, c'est la plante (qui n'est pas un arbre à proprement parler) qui domine la strate arborée des arbres fruitiers qui poussent à son ombre et qui, eux-mêmes, couvrent cultures maraîchères, fourragères, voire céréalières. À priori, on ne connaît pas cette espèce à l'état spontané (sauvage), mais sub-spontané (échappée de culture).\nCette plante monocotylédone n'est pas un arbre, au sens botanique, car elle ne produit pas de vrai bois. C'est donc abusivement que le terme d'arbre est utilisé pour parler d'un dattier. Toutefois ce palmier constitue souvent une des strates arborées dans son milieu.\nLes connaissances, savoir-faire, traditions et pratiques associés au palmier-dattier sont inscrits sur la liste représentative du patrimoine culturel immatériel de l'humanité en décembre 2019.",
+                      "citation":"https://fr.wikipedia.org/wiki/Phoenix_dactylifera",
+                      "license_name":"CC BY-SA 3.0",
+                      "license_url":"https://creativecommons.org/licenses/by-sa/3.0/"
+                   },
+                   "language":"fr",
+                   "entity_id":"e8f864ef34c2daf2"
+                }
+             }
+          ]
+       }
+    },
+    "status":"COMPLETED",
+    "sla_compliant_client":true,
+    "sla_compliant_system":true,
+    "created":1742602605.953366,
+    "completed":1742602606.193176
+ }

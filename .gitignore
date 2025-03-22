@@ -1,0 +1,9 @@
+venv
+.streamlit/secrets.toml
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
