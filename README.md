@@ -1,7 +1,7 @@
 
 ## Create a virtual environment
 ```
-mkdir plante
+git clone https://github.com/2remdou/plantAI.git
 cd plante
 python -m venv .venv
 ```
