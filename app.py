@@ -33,7 +33,6 @@ if image_file is not None:
     st.session_state['image_file'] = image_file
     button = st.button('Analyser')
     if button:
-        st.write('Analyse en cours...')
         base64_image = base64.b64encode(image_file.getvalue()).decode('utf-8')
         response = get_identification(image_file=base64_image)
         # st.json(response)
