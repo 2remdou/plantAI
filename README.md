@@ -1,12 +1,18 @@
 
-## Create a virtual environment
+## Télécharger [python](https://www.python.org/downloads/)
+
+## Cloner le repository
 ```
 git clone https://github.com/2remdou/plantAI.git
-cd plante
+cd plantAI
+```
+
+## Créer un environnement virtuel
+```
 python -m venv .venv
 ```
 
-## Activate the virtual environment
+## Activer l'environnement virtuel
 
 **Windows command prompt**
 ```
@@ -19,8 +25,10 @@ source .venv/bin/activate
 ```
 
 
-## Install requirements
+## Installer les dépendances
+```
 pip install -r requirements.txt
+```
 
 ## Creation du fichier .streamlit/secrets.toml
 ```

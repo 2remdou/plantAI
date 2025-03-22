@@ -52,10 +52,11 @@ if image_file is not None:
             color = 'green' if probabilite > 50 else 'red'
             description = plante_json['description']
             nom_scientifique = plante_json['nom_scientifique']
-            description_plant_id = plante['suggestions'][0]['details']['description']
-            citation = None
-            if 'citation' in description_plant_id:
-                citation = description_plant_id['citation']
+            if 'description' in plante['suggestions'][0]['details']:
+                description_plant_id = plante['suggestions'][0]['details']['description']
+                citation = None
+                if 'citation' in description_plant_id:
+                    citation = description_plant_id['citation']
             st.markdown(f'### [{plante_name}]({citation}) à <span style="color: {color}"> {probabilite:.2f}%</span> de chance', unsafe_allow_html=True)
             st.markdown(f'##### Nom commun: {nom_commun}')
             st.markdown(f'##### Nom scientifique: {nom_scientifique}')
