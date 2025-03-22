@@ -35,8 +35,8 @@ if image_file is not None:
     if button:
         base64_image = base64.b64encode(image_file.getvalue()).decode('utf-8')
         response = get_identification(image_file=base64_image)
-        # st.json(response)
         # response = json.load(open('detail.json'))           
+        # st.json(response)
         plante['access_token'] = response['access_token']
         plante['suggestions'] = response['result']['classification']['suggestions']
         plante['is_plant'] = response['result']['is_plant']
@@ -51,12 +51,15 @@ if image_file is not None:
             color = 'green' if probabilite > 50 else 'red'
             description = plante_json['description']
             nom_scientifique = plante_json['nom_scientifique']
-            if 'description' in plante['suggestions'][0]['details']:
+            if 'description' in plante['suggestions'][0]['details'] and plante['suggestions'][0]['details']['description'] is not None:
                 description_plant_id = plante['suggestions'][0]['details']['description']
-                citation = None
-                if 'citation' in description_plant_id:
-                    citation = description_plant_id['citation']
-            st.markdown(f'### [{plante_name}]({citation}) à <span style="color: {color}"> {probabilite:.2f}%</span> de chance', unsafe_allow_html=True)
+                if description_plant_id is not None:
+                    citation = None
+                    if 'citation' in description_plant_id and description_plant_id['citation'] is not None:
+                        citation = description_plant_id['citation']
+                        st.markdown(f'### [{plante_name}]({citation}) à <span style="color: {color}"> {probabilite:.2f}%</span> de chance', unsafe_allow_html=True)
+            else:
+                st.markdown(f'### {plante_name} à <span style="color: {color}"> {probabilite:.2f}%</span> de chance', unsafe_allow_html=True)
             st.markdown(f'##### Nom commun: {nom_commun}')
             st.markdown(f'##### Nom scientifique: {nom_scientifique}')
             if 'common_names' in plante['suggestions'][0]['details']:

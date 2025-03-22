@@ -43,5 +43,7 @@ cp .streamlit/secrets.toml.example .streamlit/secrets.toml
 1. Créer une clé API sur [https://platform.openai.com/settings/organization/api-keys] 
 2. Renseigner OPENAI_API_KEY avec la clé API dans le fichier .streamlit/secrets.toml 
 
-## Run the app
+## Lancer l'application
+```
 streamlit run app.py
+```
